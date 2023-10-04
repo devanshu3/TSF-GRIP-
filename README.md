@@ -47,5 +47,5 @@ These metrics help us understand how well the model fits the data and predicts s
 
 ## Acknowledgments
 
-The dataset used in this program is available at this link.
+The dataset used in this program is available at this link.(https://raw.githubusercontent.com/AdiPersonalWorks/Random/master/student_scores%20-%20student_scores.csv)
 This program serves as an educational example of linear regression in machine learning.
