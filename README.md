@@ -1,32 +1,29 @@
-## TSF-GRIP
+## Decision Tree Algorithm for Flower Classification
 
-Tasks evaulated in Internship Sept-Oct 2023.
+## Objective
+The objective of this project is to demonstrate the use of the Decision Tree algorithm for flower classification. We will use the Iris dataset, a well-known dataset in machine learning, to train a Decision Tree model that can classify different species of flowers based on their features.
 
-  1. Prediction using Supervised Machine Learning.
-  2. Prediction using Unsupervised Machine Learning.
-  3. Prediction using Decision Tree Algorithm.
-  4. Stock Market Prediction using Numerical and Textual Analysis.
+## Contents
+This project contains the following key steps:
 
-# Task-1 : Prediction using Supervised ML
+*Importing the Required Libraries:* Importing essential Python libraries and modules for data handling, visualization, and machine learning.
 
-Predict the percentage of marks of an student based on the number of study hours.
-This is a simple linear regression task as it involves just 2 variables.
+*Loading the Dataset:* Loading the Iris dataset, which is commonly used for machine learning and classification tasks.
 
-You can use R, Python, SAS Enterprise Miner or any other tool.
-What will be predicted score if a student studies for 9.25 hrs/ day?
+*Exploratory Data Analysis:* Exploring the dataset to gain insights into the data's structure and characteristics.
 
-# Task-2 : Prediction using Unsupervised ML
+*Data Visualization:* Creating visualizations, including scatter plots, to better understand the relationships between the features and the flower species.
 
-From the given ‘Iris’ dataset, predict the optimum number of clusters and represent it visually.
-Use R or Python or perform this task.
+*Decision Tree Model Training:* Splitting the data into training and testing sets, and training a Decision Tree classifier on the training data.
 
-# Task-3 : Prediction using Decision Tree Algorithm
+*Visualizing the Trained Model:* Generating and visualizing the Decision Tree model to understand its decision-making process.
 
-For the given ‘Iris’ dataset, create the Decision Tree classifier and visualize it graphically.
-The purpose is if we feed any new data to this classifier, it would be able to predict the right class accordingly.
+*Predicting Flower Class:* Using the trained model to predict the class of a flower based on its petal and sepal measurements.
 
-# Task-4 : Stock Market Prediction using Numerical and Textual Analysis (Level - Advanced)
+*Calculating Model Accuracy:* Evaluating the model's accuracy on the test data to measure its performance.
 
-Create a hybrid model for stock price/performance prediction using numerical analysis of historical stock prices, and sentimental analysis of news headlines.
-Stock to analyze and predict SENSEX (S&P BSE SENSEX)
-Use either R or Python, or both for separate analysis and then combine the findings to create a hybrid model.
+## Usage
+To run this code, ensure you have the required libraries installed in your Python environment. You can execute the code step by step, and make sure that the file paths for exporting and displaying the decision tree image are correctly set.
+
+## Conclusion
+This project showcases the use of the Decision Tree algorithm for flower classification, providing valuable insights into the training process and model evaluation. The model can be used for classifying iris flowers into different species based on their petal and sepal measurements.
