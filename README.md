@@ -1,32 +1,28 @@
-## TSF-GRIP
+## K-Means Clustering on Iris Dataset
 
-Tasks evaulated in Internship Sept-Oct 2023.
+## Overview
 
-  1. Prediction using Supervised Machine Learning.
-  2. Prediction using Unsupervised Machine Learning.
-  3. Prediction using Decision Tree Algorithm.
-  4. Stock Market Prediction using Numerical and Textual Analysis.
+This repository contains Python code for performing K-Means clustering on the Iris dataset. K-Means clustering is an unsupervised machine learning technique used to group data points into clusters based on their similarities. The Iris dataset is a classic dataset often used for educational and testing purposes in the field of machine learning.
 
-# Task-1 : Prediction using Supervised ML
+## Objective
 
-Predict the percentage of marks of an student based on the number of study hours.
-This is a simple linear regression task as it involves just 2 variables.
+The main objective of this project is to apply K-Means clustering to the Iris dataset to discover inherent patterns and group the iris flowers into distinct clusters based on their features. This is a fundamental example of unsupervised machine learning and can be used to gain insights into the natural structure of the dataset.
 
-You can use R, Python, SAS Enterprise Miner or any other tool.
-What will be predicted score if a student studies for 9.25 hrs/ day?
+## Prerequisites
 
-# Task-2 : Prediction using Unsupervised ML
+Before using this code, ensure you have the following Python libraries installed:
 
-From the given ‘Iris’ dataset, predict the optimum number of clusters and represent it visually.
-Use R or Python or perform this task.
+- `pandas`: For data manipulation and analysis.
+- `numpy`: For numerical operations.
+- `matplotlib`: For data visualization.
+- `scikit-learn`: For the implementation of K-Means clustering.
 
-# Task-3 : Prediction using Decision Tree Algorithm
+You can install these libraries using pip: 
+pip install pandas numpy matplotlib scikit-learn
 
-For the given ‘Iris’ dataset, create the Decision Tree classifier and visualize it graphically.
-The purpose is if we feed any new data to this classifier, it would be able to predict the right class accordingly.
+## Explanation
 
-# Task-4 : Stock Market Prediction using Numerical and Textual Analysis (Level - Advanced)
-
-Create a hybrid model for stock price/performance prediction using numerical analysis of historical stock prices, and sentimental analysis of news headlines.
-Stock to analyze and predict SENSEX (S&P BSE SENSEX)
-Use either R or Python, or both for separate analysis and then combine the findings to create a hybrid model.
+Data Loading: The Iris dataset is loaded and organized into a Pandas DataFrame.
+Optimal Number of Clusters: The Elbow Method is used to determine the optimal number of clusters for the K-Means algorithm.
+K-Means Clustering: The K-Means algorithm is applied to cluster the data.
+Visualization: The clustered data points and cluster centroids are visualized.
